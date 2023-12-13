@@ -29,7 +29,7 @@ const QuestionRadio: FC<PropsType> = ({ fe_id, props }) => {
           else liClassName = styles.horizontalItem;
 
           return (
-            <li key={value} className={liClassName}>
+            <li key={val} className={liClassName}>
               <label>
                 <input
                   type="radio"
